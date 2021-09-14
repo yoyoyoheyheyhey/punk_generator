@@ -1,6 +1,7 @@
 require 'pixelart'
 
 PARTS = {
+  # 'f' stands for female, 'm' stands for male and 'u' stands for unisex
   face:  { required: true,
            attributes: [['', 'u'],
                         ['', 'u']] },
